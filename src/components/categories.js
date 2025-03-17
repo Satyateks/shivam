@@ -12,12 +12,12 @@ export default function Categories(){
     const data = [
         {
             image:category1,
-            name:'Residential',
+            name:'Residential Flat',
             listings:'46 Listings'
         },
         {
             image:category2,
-            name:'Land',
+            name:'Residential Plot',
             listings:'124 Listings'
         },
         {
@@ -25,11 +25,11 @@ export default function Categories(){
             name:'Commercial',
             listings:'265 Listings'
         },
-        {
-            image:category4,
-            name:'Industrial',
-            listings:'452 Listings'
-        },
+        // {
+        //     image:category4 ,
+        //     name:'Commercial Apartments',
+        //     listings:'452 Listings'
+        // },
         {
             image:category5,
             name:'Investment',

@@ -9,7 +9,6 @@ import {FiShoppingCart, FiDribbble, FiLinkedin, FiFacebook, FiInstagram, FiTwitt
 export default function Footer(){
     return(
         <>
-        
         <footer className="bg-footer">
             <div className="container">
                 <div className="row">
@@ -62,19 +61,19 @@ export default function Footer(){
                                     <div className="d-flex mt-4">
                                         <FiMapPin className="fea icon-sm text-primary mt-1 me-3"/>
                                         <div className="">
-                                            <p className="mb-2">C/54 Northwest Freeway, <br/> Suite 558, <br/> Houston, USA 485</p>
+                                            <p className="mb-2">SF 20D, Galaxy Blue, <br/> Sapphire Mall, <br/> Noida Extension, India</p>
                                             <Link to="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" data-type="iframe" className="text-primary lightbox">View on Google map</Link>
                                         </div>
                                     </div>
         
                                     <div className="d-flex mt-4">
                                         <FiMail className="fea icon-sm text-primary mt-1 me-3"/>
-                                        <Link to="mailto:contact@example.com" className="text-foot">contact@example.com</Link>
+                                        <Link to="mailto:shivamoffcial10@gmail.com" className="text-foot">shivamoffcial10@gmail.com</Link>
                                     </div>
                                     
                                     <div className="d-flex mt-4">
                                         <FiPhone className="fea icon-sm text-primary mt-1 me-3"/>
-                                        <Link to="tel:+152534-468-854" className="text-foot">+152 534-468-854</Link>
+                                        <Link to="tel:+918115902234" className="text-foot">+91 8115902234</Link>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +87,7 @@ export default function Footer(){
                     <div className="row">
                         <div className="col">
                             <div className="text-center">
-                                <p className="mb-0">© {new Date().getFullYear()} Towntor. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0">© {new Date().getFullYear()} Shivay Property. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Priyanshu</Link>.</p>
                             </div>
                         </div>
                     </div>

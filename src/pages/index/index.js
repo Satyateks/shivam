@@ -319,9 +319,9 @@ export default function Index(){
                <ClientOne/>
             </div>
 
-            <div className="container mt-100 mt-60">
+            {/* <div className="container mt-100 mt-60">
                 <Broker/>
-            </div>
+            </div> */}
 
             <div className="container mt-100 mt-60">
                 <GetInTuch/>
