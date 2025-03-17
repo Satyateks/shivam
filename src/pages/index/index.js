@@ -54,12 +54,12 @@ export default function Index(){
                         <div className="row justify-content-center">
                             <div className="col-12">
                                 <div className="title-heading">
-                                    <h4 className="heading fw-bold text-white title-dark mb-3">We will help you find <br/> your
+                                    <h4 className="heading fw-bold text-white title-dark mb-3">Find Your Perfect Place –  <br/>  
                                     <TypeAnimation
                                         sequence={[
-                                            'Wonderful',
+                                            'Hassle-Free',
                                             2000, 
-                                            'Dream',
+                                            'Effortless',
                                             2000,
                                         ]}
                                         wrapper="span"
@@ -67,8 +67,8 @@ export default function Index(){
                                         repeat={Infinity}
                                         className="typewrite text-primary ms-2"
                                         cursor={false}
-                                    /> home</h4>
-                                    <p className="para-desc text-white title-dark mb-0">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                                    /> Renting Starts Here!</h4>
+                                    <p className="para-desc text-white title-dark mb-0">The Ultimate Property Marketplace – No Agents, No Hidden Fees!</p>
                                 </div>
                             </div>
                         </div>
