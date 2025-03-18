@@ -22,21 +22,25 @@ export const propertyData = [
         id:1,
         image: property1,
         title: '10765 Hillshire Ave, Baton Rouge, LA 70810, USA',
+        amenities: ["Temple", "Security", "Swimming Pool", "Gym"]
     },
     {
         id:2,
         image: property2,
         title: '59345 STONEWALL DR, Plaquemine, LA 70764, USA',
+        amenities: ["Store Room", "Servant Room", "Garden"]
     },
     {
         id:3,
         image: property3,
         title: '3723 SANDBAR DR, Addis, LA 70710, USA',
+        amenities: ["Store Room", "Servant Room", "Garden"]
     },
     {
         id:4,
         image: property4,
         title: 'Lot 21 ROYAL OAK DR, Prairieville, LA 70769, USA',
+        amenities: ["Temple", "Security", "Swimming Pool", "Gym"]
     },
     {
         id:5,
@@ -64,6 +68,30 @@ export const propertyData = [
         title: '1533 NICHOLSON DR, Baton Rouge, LA 70802, USA',
     },
 ]
+
+export const amenities = [
+    { id: 1, name: "Temple", icon: "mdi-temple-hindu" },
+    { id: 2, name: "Store Room", icon: "mdi-warehouse" },
+    { id: 3, name: "Servant Room", icon: "mdi-home-group" },
+    { id: 4, name: "Male Bachelors", icon: "mdi-account-multiple" },
+    { id: 5, name: "Female Bachelors", icon: "mdi-account-multiple-outline" },
+    { id: 6, name: "Businessmen", icon: "mdi-briefcase" },
+    { id: 7, name: "Family", icon: "mdi-human-male-female-child" },
+    { id: 8, name: "Pet Owners", icon: "mdi-paw" },
+    { id: 9, name: "Non-Vegetarian", icon: "mdi-food-drumstick" },
+    { id: 10, name: "Club House", icon: "mdi-home-modern" },
+    { id: 11, name: "24Hrs Backup", icon: "mdi-battery-charging-100" },
+    { id: 12, name: "Security", icon: "mdi-security" },
+    { id: 13, name: "Maintenance", icon: "mdi-tools" },
+    { id: 14, name: "Intercom", icon: "mdi-phone-classic" },
+    { id: 15, name: "Garden", icon: "mdi-flower" },
+    { id: 16, name: "Play Ground", icon: "mdi-soccer-field" },
+    { id: 17, name: "Swimming Pool", icon: "mdi-pool" },
+    { id: 18, name: "Gym", icon: "mdi-dumbbell" },
+    { id: 19, name: "Chimney", icon: "mdi-fireplace" },
+    { id: 20, name: "Gas Pipeline", icon: "mdi-gas-cylinder" }
+];
+
 
 export const clientData = [
     {
