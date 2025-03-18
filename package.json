@@ -1,7 +1,7 @@
 {
   "name": "towntor",
   "version": "1.0.0",
-  "description": "Towntor - React Js Real Estate Bootstrap 5 Landing Template",
+  "description": "Shivay Property - React Js Real Estate Bootstrap 5 Landing Template",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

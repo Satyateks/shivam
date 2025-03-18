@@ -19,7 +19,7 @@ export default function Faqs(){
         },
         {
             id:2,
-            title:'Do I need a designer to use Towntor ?',
+            title:'Do I need a designer to use Shivay Property ?',
             desc:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
         },
         {

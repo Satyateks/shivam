@@ -18,7 +18,7 @@ export default function Terms(){
         },
         {
             id:2,
-            title:'Do I need a designer to use Towntor ?',
+            title:'Do I need a designer to use Shivay Property ?',
             desc:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
         },
         {
@@ -49,7 +49,7 @@ export default function Terms(){
                 <div className="position-middle-bottom">
                     <nav aria-label="breadcrumb" className="d-block">
                         <ul className="breadcrumb breadcrumb-muted mb-0 p-0">
-                            <li className="breadcrumb-item"><Link to="/">Towntor</Link></li>
+                            <li className="breadcrumb-item"><Link to="/">Shivay Property</Link></li>
                             <li className="breadcrumb-item active" aria-current="page">Terms</li>
                         </ul>
                     </nav>
