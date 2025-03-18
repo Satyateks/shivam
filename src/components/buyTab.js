@@ -73,7 +73,7 @@ export default function BuyTab(){
                                     <img src={image1} className="img-fluid" alt=""/>
                                     <div className="mt-4">
                                         <h5 className="">Pre Approval Letter</h5>
-                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Towntor streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
+                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Shivay Property streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
                                         <Link to="#" className="text-primary">See More<FiArrowRight className="fea icon-sm ms-1"/></Link>
                                     </div>
                                 </div> : ""
@@ -83,7 +83,7 @@ export default function BuyTab(){
                                     <img src={image2} className="img-fluid" alt=""/>
                                     <div className="mt-4">
                                         <h5 className="">Pre Approval Letter</h5>
-                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Towntor streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
+                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Shivay Property streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
                                         <Link to="#" className="text-primary">See More <FiArrowRight className="fea icon-sm ms-1"/></Link>
                                     </div>
                                 </div> : ""
@@ -93,7 +93,7 @@ export default function BuyTab(){
                                     <img src={image3} className="img-fluid" alt=""/>
                                     <div className="mt-4">
                                         <h5 className="">Pre Approval Letter</h5>
-                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Towntor streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
+                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Shivay Property streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
                                         <Link to="#" className="text-primary">See More <FiArrowRight className="fea icon-sm ms-1"/></Link>
                                     </div>
                                 </div> : ""
@@ -103,7 +103,7 @@ export default function BuyTab(){
                                     <img src={image4} className="img-fluid" alt=""/>
                                     <div className="mt-4">
                                         <h5 className="">Pre Approval Letter</h5>
-                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Towntor streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
+                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Shivay Property streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
                                         <Link to="#" className="text-primary">See More <FiArrowRight className="fea icon-sm ms-1"/></Link>
                                     </div>
                                 </div> : ""
@@ -113,7 +113,7 @@ export default function BuyTab(){
                                     <img src={image5} className="img-fluid" alt=""/>
                                     <div className="mt-4">
                                         <h5 className="">Pre Approval Letter</h5>
-                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Towntor streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
+                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Shivay Property streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
                                         <Link to="#" className="text-primary">See More <FiArrowRight className="fea icon-sm ms-1"/></Link>
                                     </div>
                                 </div> : ""
@@ -123,7 +123,7 @@ export default function BuyTab(){
                                     <img src={image6} className="img-fluid" alt=""/>
                                     <div className="mt-4">
                                         <h5 className="">Pre Approval Letter</h5>
-                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Towntor streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
+                                        <p className="text-muted">Most buyers think the first step is finding their dream house, but the truth is finding the funding is the first step. Shivay Property streamlines the Loan Pre-Approval process with our ecosystem of Premier Partners or simply upload your own Pre-Approval letter.</p>
                                         <Link to="#" className="text-primary">See More <FiArrowRight className="fea icon-sm ms-1"/></Link>
                                     </div>
                                 </div> : ""

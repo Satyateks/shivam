@@ -30,7 +30,7 @@ export default function AboutUs(){
                 <div className="row mt-5 justify-content-center">
                     <div className="col-12">
                         <div className="title-heading text-center">
-                            <p className="text-white-50 para-desc mx-auto mb-0">Our story: Towntor</p>
+                            <p className="text-white-50 para-desc mx-auto mb-0">Our story: Shivay Property</p>
                             <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">About Us</h5>
                         </div>
                     </div>

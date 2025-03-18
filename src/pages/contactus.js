@@ -24,7 +24,7 @@ export default function ContactUs(){
                 <div className="position-middle-bottom">
                     <nav aria-label="breadcrumb" className="d-block">
                         <ul className="breadcrumb breadcrumb-muted mb-0 p-0">
-                            <li className="breadcrumb-item"><Link to="/">Towntor</Link></li>
+                            <li className="breadcrumb-item"><Link to="/">Shivay Property</Link></li>
                             <li className="breadcrumb-item active" aria-current="page">Contact us</li>
                         </ul>
                     </nav>
@@ -99,7 +99,7 @@ export default function ContactUs(){
     
                             <div className="mt-4">
                                 <h5 className="mb-3">Phone</h5>
-                                <p className="text-muted">Start working with Towntor that can provide everything</p>
+                                <p className="text-muted">Start working with Shivay Property that can provide everything</p>
                                 <Link to="tel:+918115902234" className="text-primary">+918115902234</Link>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ export default function ContactUs(){
     
                             <div className="mt-4">
                                 <h5 className="mb-3">Email</h5>
-                                <p className="text-muted">Start working with Towntor that can provide everything</p>
+                                <p className="text-muted">Start working with Shivay Property that can provide everything</p>
                                 <Link to="mailto:shivamoffcial10@gmail.com" className="text-primary">shivamoffcial10@gmail.com</Link>
                             </div>
                         </div>

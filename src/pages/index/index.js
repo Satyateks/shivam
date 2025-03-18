@@ -54,12 +54,12 @@ export default function Index(){
                         <div className="row justify-content-center">
                             <div className="col-12">
                                 <div className="title-heading">
-                                    <h4 className="heading fw-bold text-white title-dark mb-3">We will help you find <br/> your
+                                    <h4 className="heading fw-bold text-white title-dark mb-3">Find Your Perfect Place –  <br/>  
                                     <TypeAnimation
                                         sequence={[
-                                            'Wonderful',
+                                            'Hassle-Free',
                                             2000, 
-                                            'Dream',
+                                            'Effortless',
                                             2000,
                                         ]}
                                         wrapper="span"
@@ -67,8 +67,8 @@ export default function Index(){
                                         repeat={Infinity}
                                         className="typewrite text-primary ms-2"
                                         cursor={false}
-                                    /> home</h4>
-                                    <p className="para-desc text-white title-dark mb-0">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                                    /> Renting Starts Here!</h4>
+                                    <p className="para-desc text-white title-dark mb-0">The Ultimate Property Marketplace – No Agents, No Hidden Fees!</p>
                                 </div>
                             </div>
                         </div>
@@ -291,9 +291,9 @@ export default function Index(){
 
                     <div className="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div className="section-title ms-lg-5">
-                            <h6 className="text-primary fw-medium mb-2">Our story: Towntor</h6>
+                            <h6 className="text-primary fw-medium mb-2">Our story: Shivay Property</h6>
                             <h4 className="title mb-3">Efficiency. <br/> Transparency. Control.</h4>
-                            <p className="text-muted para-desc mb-0">Towntor developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Towntor is Real Estate Redefined.</p>
+                            <p className="text-muted para-desc mb-0">Shivay Property developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Shivay Property is Real Estate Redefined.</p>
                         
                             <div className="mt-4">
                                 <Link to="/aboutus" className="btn btn-pills btn-primary">Read More <i className="mdi mdi-arrow-right align-middle"></i></Link>
