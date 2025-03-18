@@ -84,9 +84,9 @@ export default function PropertyDetails(){
             </div>
 
             <div className="container mt-100 mt-60">
-                <div className="row g-4">
-                    <div className="col-lg-8 col-md-7 col-12">
-                        <div className="section-title">
+                <div className="row g-2">
+                    <div className="col-lg-9 col-md-7 col-12">
+                        <div className="section-title border shadow-lg p-3">
                             <h4 className="title mb-0">{data?.title ? data?.title : "10765 Hillshire Ave, Baton Rouge, LA 70810, USA"}</h4>
                             
                             <ul className="list-unstyled mb-0 py-3">
@@ -124,13 +124,13 @@ export default function PropertyDetails(){
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-md-5 col-12">
+                    <div className="col-lg-3 col-md-5 col-12">
                         <div className="rounded-3 shadow bg-white sticky-bar p-4">
                             <h5 className="mb-3">Price:</h5>
 
                             <div className="d-flex align-items-center justify-content-between">
                                 <h5 className="mb-0">$ 45,231</h5>
-                                <span className="badge bg-primary">For Sale</span>
+                                <span className="badge bg-primary">For Rent</span>
                             </div>
 
                             <div className="">
@@ -151,8 +151,8 @@ export default function PropertyDetails(){
                             </div>
 
                             <div className="d-flex mt-3">
-                                <Link to="#" className="btn btn-primary w-100 me-2">Book Now</Link>
-                                <Link to="#" className="btn btn-primary w-100">Offer now</Link>
+                                <Link to="#" className="btn btn-primary w-100 me-2">Rent Now</Link>
+                                {/* <Link to="#" className="btn btn-primary w-100">Offer now</Link> */}
                             </div>
                         </div>
                     </div>
