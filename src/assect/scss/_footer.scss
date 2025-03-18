@@ -5,6 +5,11 @@
 /*********************************/
 /*         Footer                */
 /*===============================*/
+
+.logoinvert{
+    filter: invert(1);
+    height: 53px;
+}
 footer {
     position: relative;
     color: $gray-500;

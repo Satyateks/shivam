@@ -1,8 +1,8 @@
 
 import React,{useState,useEffect} from "react";
 import { Link } from "react-router-dom";
-import logoDark from '../assect/images/logo-dark.png'
-import logoLight from '../assect/images/logo-light.png'
+import logoDark from '../assect/images/icon.jpg'
+import logoLight from '../assect/images/icon.jpg'
 
 import {FiSearch,FiUser} from '../assect/icons/vander'
 
@@ -188,8 +188,8 @@ export default function Navbar({navClass,logolight,menuClass}){
                 <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                     <ul className={menuClass}>
                         <li className="has-submenu parent-menu-item">
-                            <Link to="#">Home</Link><span className="menu-arrow"></span>
-                            <ul className="submenu">
+                            <Link to="/">Home</Link>
+                            {/* <ul className="submenu">
                                 <li><Link to="/" className="sub-menu-item">Hero One</Link></li>
                                 <li><Link to="/index-two" className="sub-menu-item">Hero Two</Link></li>
                                 <li><Link to="/index-three" className="sub-menu-item">Hero Three</Link></li>
@@ -197,7 +197,7 @@ export default function Navbar({navClass,logolight,menuClass}){
                                 <li><Link to="/index-five" className="sub-menu-item">Hero Five </Link></li>
                                 <li><Link to="/index-six" className="sub-menu-item">Hero Six</Link></li>
                                 <li><Link to="/index-seven" className="sub-menu-item">Hero Seven</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
                         <li><Link to="/buy" className="sub-menu-item">Buy</Link></li>
                         

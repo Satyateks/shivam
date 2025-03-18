@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logoLight from "../assect/images/logo-light.png"
+import logoLight from "../assect/images/icon-removebg-preview.png"
 
 
 import {FiShoppingCart, FiDribbble, FiLinkedin, FiFacebook, FiInstagram, FiTwitter, FiMail, FiMapPin, FiPhone} from "../assect/icons/vander"
@@ -17,7 +17,7 @@ export default function Footer(){
                             <div className="row">
                                 <div className="col-lg-5 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                                     <Link to="#" className="logo-footer">
-                                        <img src={logoLight} alt=""/>
+                                        <img className="logoinvert" src={logoLight} alt=""/>
                                     </Link>
                                     <p className="mt-4">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
                                     <ul className="list-unstyled social-icon foot-social-icon mb-0 mt-4">
