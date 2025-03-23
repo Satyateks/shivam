@@ -244,7 +244,7 @@ export default function Navbar({ navClass, logolight, menuClass }) {
                                               
                                              <li><Link to="/comingsoon" className="sub-menu-item">Key Management</Link></li>
                                              <li><Link to="/comingsoon" className="sub-menu-item">Property Management</Link></li>
-                                             <li><Link to="/comingsoon" className="sub-menu-item">Renting Solution</Link></li>
+                                             <li><Link to="/rentingSolution" className="sub-menu-item">Renting Solution</Link></li>
                                              <li><Link to="/comingsoon" className="sub-menu-item">Rent Agreement</Link></li>
                                              <li><Link to="/property" className="sub-menu-item">Property</Link></li>
                                              <li><Link to="/comingsoon" className="sub-menu-item"> Partner</Link></li>

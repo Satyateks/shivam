@@ -36,6 +36,7 @@ import Comingsoon from "./pages/Special/comingsoon";
 import Maintenance from "./pages/Special/maintenance";
 import Error from "./pages/Special/error";
 import { Property } from "./components/properties";
+import RentindSolution from "./components/renting/rentindSolution";
 
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
        <Route path="/auth-reset-password" element={<ResetPassword/>}/>
        <Route path="/comingsoon" element={<Comingsoon/>}/>
        <Route path="/maintenance" element={<Maintenance/>}/>
+       <Route path="/rentingSolution" element={<RentindSolution/>}/>
        <Route path="/error" element={<Error/>}/>
        <Route path="*" element={<Error/>}/>
 
