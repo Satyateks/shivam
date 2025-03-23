@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logoDark from '../assect/images/icon.jpg'
 import logoLight from '../assect/images/icon.jpg'
 
-import { FiSearch, FiUser } from '../assect/icons/vander'
+// import { FiSearch, FiUser } from '../assect/icons/vander'
 
 export default function Navbar({ navClass, logolight, menuClass }) {
     const [scroll, setScroll] = useState(false);
@@ -182,6 +182,9 @@ export default function Navbar({ navClass, logolight, menuClass }) {
                         </li> */}
                         <li className="list-inline-item ps-1 mb-0">
                             {/* <Link to="/auth-login" className="btn btn-sm btn-icon btn-pills btn-primary"><FiUser className="icons" /></Link> */}
+                            <Link to='/rentingSolution'>
+                            <button className="btn me-2 " style={{border:"1px solid "}}>Post Property</button>
+                            </Link>
                             <Link to='/auth-login'>
                             <button className="btn me-2 " style={{border:"1px solid black", backgroundColor:"white"}}>Login</button>
                             </Link>

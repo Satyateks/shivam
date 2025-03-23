@@ -27,7 +27,7 @@ export default function Footer(){
                                         <li className="list-inline-item"><Link to="https://www.facebook.com/shreethemes" target="_blank" className="rounded-3"><FiFacebook className="fea icon-sm align-middle"/></Link></li>
                                         <li className="list-inline-item"><Link to="https://www.instagram.com/shreethemes/" target="_blank" className="rounded-3"><FiInstagram className="fea icon-sm align-middle"/></Link></li>
                                         <li className="list-inline-item"><Link to="https://twitter.com/shreethemes" target="_blank" className="rounded-3"><FiTwitter className="fea icon-sm align-middle"/></Link></li>
-                                        <li className="list-inline-item"><Link to="mailto:support@shreethemes.in" className="rounded-3"><FiMail className="fea icon-sm align-middle"/></Link></li>
+                                        <li className="list-inline-item"><Link to="mailto:support@gmail.in" className="rounded-3"><FiMail className="fea icon-sm align-middle"/></Link></li>
                                     </ul>
                                 </div>
                                 

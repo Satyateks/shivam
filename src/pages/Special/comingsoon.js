@@ -12,7 +12,7 @@ export default function Comingsoon(){
 
 
         const interval = setInterval(() => {
-            let startDate = new Date('June 25, 2024 16:37:52');
+            let startDate = new Date('March 27, 2025 16:27:51');
             let currentDate = new Date();
             const diff = startDate.getTime() - currentDate.getTime();
 
@@ -61,7 +61,7 @@ export default function Comingsoon(){
                                 </div>
                             </div>
                             <div className="text-center">
-                                <p className="mb-0 text-muted">© {new Date().getFullYear()} Shivay Property. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 text-muted">© {new Date().getFullYear()} Shivay Property. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Priyanshu</Link>.</p>
                             </div>
                         </div>
                     </div>
