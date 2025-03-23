@@ -1,0 +1,21 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Saffron Color -->
+  <rect width="300" height="66.67" fill="#FF9933"/>
+  <!-- White Color -->
+  <rect y="66.67" width="300" height="66.67" fill="white"/>
+  <!-- Green Color -->
+  <rect y="133.33" width="300" height="66.67" fill="#138808"/>
+  <!-- Ashoka Chakra (24-spoke wheel) -->
+  <circle cx="150" cy="100" r="30" fill="none" stroke="navy" stroke-width="4"/>
+  <!-- Spokes -->
+  <g stroke="navy" stroke-width="2">
+    <line x1="150" y1="70" x2="150" y2="130"/>
+    <line x1="120" y1="100" x2="180" y2="100"/>
+    <line x1="135" y1="75" x2="165" y2="125"/>
+    <line x1="135" y1="125" x2="165" y2="75"/>
+    <line x1="125" y1="85" x2="175" y2="115"/>
+    <line x1="125" y1="115" x2="175" y2="85"/>
+    <line x1="140" y1="70" x2="160" y2="130"/>
+    <line x1="140" y1="130" x2="160" y2="70"/>
+  </g>
+</svg>

@@ -2,21 +2,24 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import {FiHexagon, FiHome, FiBriefcase, FiKey} from '../assect/icons/vander'
+import workDirect from '../assect/svg/works-direct.svg'
+import workHome from '../assect/svg/works-home.svg'
+import workHouse from '../assect/svg/works-house.svg'
 
 export default function AboutUs(){
     const aboutData = [
         {
-            icon: FiHome,
+            icon: workHome,
             title: 'Search for Your Dream Home',
             desc: 'Browse for the best flat for rent in Noida extension.'
         },
         {
-            icon: FiBriefcase,
+            icon: workDirect,
             title: 'Plan a Direct Visit',
             desc: 'Schedule a visit to the property at your convenience'
         },
         {
-            icon: FiKey,
+            icon: workHouse,
             title: 'Move to Your New House',
             desc: 'Finalise the deal once it fits you, and move in!'
         },
@@ -36,12 +39,12 @@ export default function AboutUs(){
             {aboutData.map((item, index)=> {
                 const Icon = item.icon
                 return(
-                    <div className="col-md-4" key={index}>
-                        <div className="position-relative features text-center mx-lg-4 px-md-1">
-                            <div className="feature-icon position-relative overflow-hidden d-flex justify-content-center">
+                    <div className="col-md-4 " key={index}>
+                        <div className="position-relative features text-center mx-lg-4 px-md-1 border shadow-lg p-3">
+                            <div className="feature-icon position-relative  d-flex justify-content-center">
                                 <FiHexagon className="hexagon"/>
                                 <div className="position-absolute top-50 start-50 translate-middle">
-                                    <Icon className="fea icon-m-md text-primary"/>
+                                   <img src={item.icon}></img>
                                 </div>
                             </div>
 

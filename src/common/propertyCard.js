@@ -12,19 +12,19 @@ export const PropertyCard = ({properties}) => {
   <div className="card" key={property.id}>
     <div className="card-body">
       <div className="row border shadow-lg align-items-stretch">
-        {/* Image Section */}
+       
         <div className="col-12 col-md-4 p-0">
           <img
             src={property.image}
             className="img-fluid w-100 h-100 rounded shadow"
-            style={{ objectFit: "cover" }} // 🔥 Ensures full coverage
+            style={{ objectFit: "cover" }} 
           />
         </div>
 
-        {/* Content Section */}
+       
         <div className="col-12 col-md-8 d-flex flex-column">
           <div>
-            {/* 🔥 Title with Ellipsis */}
+          
             <h4
               className="mt-2 fw-bold mb-2 text-truncate"
               style={{
@@ -47,9 +47,9 @@ export const PropertyCard = ({properties}) => {
             </section>
           </div>
 
-          {/* ✅ Buttons: Desktop (1 Button) & Mobile (3 Buttons in 1 Line) */}
+       
           <div className="mt-auto">
-            {/* 🔹 Desktop View: Only 'Explore' Button */}
+         
             <div className="d-none d-md-flex justify-content-end">
               <button
                 className="btn btn-primary mb-2"
@@ -59,9 +59,9 @@ export const PropertyCard = ({properties}) => {
               </button>
             </div>
 
-            {/* 🔹 Mobile View: 3 Buttons in 1 Line */}
+         
             <div className="d-md-none d-flex justify-content-between gap-2 mb-3">
-              {/* Call (Circular Icon) */}
+             
               <div
                 className="rounded-circle bg-primary d-flex align-items-center justify-content-center"
                 style={{ width: "50px", height: "50px", cursor: "pointer" }}
@@ -70,7 +70,7 @@ export const PropertyCard = ({properties}) => {
                 <i className="mdi mdi-phone text-white fs-4"></i>
               </div>
 
-              {/* WhatsApp (Circular Icon) */}
+             
               <div
                 className="rounded-circle bg-success d-flex align-items-center justify-content-center"
                 style={{ width: "50px", height: "50px", cursor: "pointer" }}
@@ -92,9 +92,6 @@ export const PropertyCard = ({properties}) => {
     </div>
   </div>
 ))}
-
-          
-
         </>
     )
 }
