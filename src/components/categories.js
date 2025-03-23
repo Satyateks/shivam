@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import category1 from '../assect/images/property/residential.jpg'
 import category2 from '../assect/images/property/land.jpg'
 import category3 from '../assect/images/property/commercial.jpg'
-// import category4 from '../assect/images/property/industrial.jpg'
+import category4 from '../assect/images/property/industrial.jpg'
 import category5 from '../assect/images/property/investment.jpg'
 
 export default function Categories(){
@@ -25,11 +25,11 @@ export default function Categories(){
             name:'Commercial',
             listings:'265 Listings'
         },
-        // {
-        //     image:category4 ,
-        //     name:'Commercial Apartments',
-        //     listings:'452 Listings'
-        // },
+        {
+            image:category4 ,
+            name:'Property Management',
+            listings:'452 Listings'
+        },
         {
             image:category5,
             name:'Investment',

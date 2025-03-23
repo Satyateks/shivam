@@ -11,12 +11,12 @@ import Categories from "../../components/categories"
 import FeaturedProperties from "../../components/featuredProperties"
 import AboutUs from "../../components/about";
 import ClientOne from "../../components/clientOne";
-import Broker from "../../components/broker";
+// import Broker from "../../components/broker";
+// import { TypeAnimation } from 'react-type-animation';
 import GetInTuch from "../../components/getInTuch";
 import FooterTopImage from "../../components/FoterTopImage";
 import Footer from "../../components/footer";
 
-import { TypeAnimation } from 'react-type-animation';
 import Select from 'react-select'
 
 import {FiDollarSign, FiHome,FiSearch} from "../../assect/icons/vander"
@@ -54,21 +54,18 @@ export default function Index(){
                         <div className="row justify-content-center">
                             <div className="col-12">
                                 <div className="title-heading">
-                                    <h4 className="heading fw-bold text-white title-dark mb-3">Find Your Perfect Place –  <br/>  
+                                    <h4  className="heading fw-bold text-white title-dark mb-4">Find Houses, Apartments and Flats for<br/> Rent in Noida</h4>
+                                    {/* <h4 className="heading fw-bold text-white title-dark mb-3">Find Your Perfect Place –  <br/>  
                                     <TypeAnimation
                                         sequence={[
-                                            'Hassle-Free',
-                                            2000, 
-                                            'Effortless',
-                                            2000,
-                                        ]}
+                                            'Hassle-Free',2000, 
+                                            'Effortless',2000]}
                                         wrapper="span"
                                         speed={20}
                                         repeat={Infinity}
                                         className="typewrite text-primary ms-2"
                                         cursor={false}
-                                    /> Renting Starts Here!</h4>
-                                    <p className="para-desc text-white title-dark mb-0">The Ultimate Property Marketplace – No Agents, No Hidden Fees!</p>
+                                    /> Renting Starts Here!</h4><p className="para-desc text-white title-dark mb-0">The Ultimate Property Marketplace – No Agents, No Hidden Fees!</p> */}
                                 </div>
                             </div>
                         </div>

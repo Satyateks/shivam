@@ -7,18 +7,18 @@ export default function AboutUs(){
     const aboutData = [
         {
             icon: FiHome,
-            title: 'Evaluate Property',
-            desc: 'If the distribution of letters and words  is random, the reader will not be distracted from making.'
+            title: 'Search for Your Dream Home',
+            desc: 'Browse for the best flat for rent in Noida extension.'
         },
         {
             icon: FiBriefcase,
-            title: 'Meeting with Agent',
-            desc: 'If the distribution of letters and words  is random, the reader will not be distracted from making.'
+            title: 'Plan a Direct Visit',
+            desc: 'Schedule a visit to the property at your convenience'
         },
         {
             icon: FiKey,
-            title: 'Close the Deal',
-            desc: 'If the distribution of letters and words  is random, the reader will not be distracted from making.'
+            title: 'Move to Your New House',
+            desc: 'Finalise the deal once it fits you, and move in!'
         },
     ]
     return(
