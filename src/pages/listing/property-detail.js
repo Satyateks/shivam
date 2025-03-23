@@ -23,7 +23,9 @@ export default function PropertyDetails() {
     const params = useParams()
     const id = params.id
     const data = propertyData.find((item) => item.id === parseInt(id))
-   const activeAmenities = data.amenities;
+    console.log(data);
+
+   const activeAmenities =  data && data.amenities ? data.amenities :[];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [open, setIsOpen] = useState(false);
     const images = [image1, image2, image3, image4, image5]
@@ -133,8 +135,10 @@ export default function PropertyDetails() {
                                     </ul>
                                 </div>
                                 <div className="border shadow-lg mt-3 mb-3">
-
+                                 {activeAmenities.length > 0 &&
                                  <AmenitiesList activeAmenities={activeAmenities} />
+                                 
+                                 }
 
                                 </div>
                                 <p className="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>

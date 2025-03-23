@@ -35,6 +35,7 @@ import Signup from "./pages/auth/auth-signup";
 import Comingsoon from "./pages/Special/comingsoon";
 import Maintenance from "./pages/Special/maintenance";
 import Error from "./pages/Special/error";
+import { Property } from "./components/properties";
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
        <Route path="/grid-sidebar" element={<GridSidebar/>}/>
        <Route path="/list" element={<List/>}/>
        <Route path="/list-sidebar" element={<ListSidebar/>}/>
+       <Route path="/property" element={<Property/>}/>
        <Route path="/property-detail" element={<PropertyDetails/>}/>
        <Route path="/property-detail/:id" element={<PropertyDetails/>}/>
        <Route path="/property-detail-two" element={<PropertyDetailsTwo/>}/>

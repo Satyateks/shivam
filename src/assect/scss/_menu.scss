@@ -355,6 +355,7 @@
 
     &.nav-sticky{
         background: $white;
+        
         box-shadow: $shadow;
         .navigation-menu {
             &.nav-light {
@@ -457,7 +458,7 @@
                     z-index: 1000;
                     padding: 15px 0;
                     list-style: none;
-                    min-width: 180px;
+                    min-width: 700px;
                     visibility: hidden;
                     opacity: 0;
                     margin-top: 10px;

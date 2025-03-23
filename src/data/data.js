@@ -46,26 +46,34 @@ export const propertyData = [
         id:5,
         image: property5,
         title: '710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA',
+        amenities: ["Temple", "Security", "Swimming Pool", "Gym", "Store Room", "Servant Room", "Garden"]
     },
     {
         id:6,
         image: property6,
         title: '5133 MCLAIN WAY, Baton Rouge, LA 70809, USA',
+        amenities: ["Temple", "Security", "Swimming Pool", "Gym", "Store Room", "Servant Room", "Garden"]
+
     },
     {
         id:7,
         image: property7,
         title: '1574 Sharlo Ave, Baton Rouge, LA 70820, USA',
+        amenities: ["Temple", "Security", "Swimming Pool", "Gym"],
     },
     {
         id:8,
         image: property8,
         title: '2528 BOCAGE LAKE DR, Baton Rouge, LA 70809, USA',
+        amenities: ["Temple", "Security", "Swimming Pool", "Gym", "Store Room", "Servant Room", "Garden"]
+
     },
     {
         id:9,
         image: property9,
         title: '1533 NICHOLSON DR, Baton Rouge, LA 70802, USA',
+        amenities: ["Temple", "Security", "Swimming Pool", "Gym", "Store Room", "Servant Room", "Garden"]
+
     },
 ]
 
