@@ -37,9 +37,13 @@ import Maintenance from "./pages/Special/maintenance";
 import Error from "./pages/Special/error";
 import { Property } from "./components/properties";
 import RentindSolution from "./components/renting/rentindSolution";
+import GetHelp from "./components/getHelp";
+import BrokerLeadProfile from "./components/lead/brokerLeadProfile";
 
 
 function App() {
+
+  
   const location = useLocation()
   return (
     <>
@@ -72,12 +76,14 @@ function App() {
        <Route path="/blog-detail" element={<BlogDetail/>}/>
        <Route path="/blog-detail/:id" element={<BlogDetail/>}/>
        <Route path="/contactus" element={<ContactUs/>}/>
+       <Route path="/getHelp" element={<GetHelp/>}/>
        <Route path="/auth-login" element={<AuthLogin/>}/>
        <Route path="/auth-signup" element={<Signup/>}/>
        <Route path="/auth-reset-password" element={<ResetPassword/>}/>
        <Route path="/comingsoon" element={<Comingsoon/>}/>
        <Route path="/maintenance" element={<Maintenance/>}/>
        <Route path="/rentingSolution" element={<RentindSolution/>}/>
+       <Route path="/lead" element={<BrokerLeadProfile/>}/>
        <Route path="/error" element={<Error/>}/>
        <Route path="*" element={<Error/>}/>
 

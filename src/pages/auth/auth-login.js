@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import bg3 from "../../assect/images/bg/03.jpg"
 import logo from "../../assect/images/logo-icon-80.png"
+import { useLoginMutation } from "../../services/authApi";
+import { useDispatch } from 'react-redux';
+import { setCredentials } from '../../features/authSlice';
+
 export default function AuthLogin(){
+
+    const [login] = useLoginMutation();
+    const dispatch = useDispatch();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleLogin = async (e) => {
+        e.preventDefault();
+        try {
+            console.log(1);
+          const res = await login({ email, password }).unwrap();
+          console.log(res);
+          dispatch(setCredentials(res));
+          localStorage.setItem('token', res.data.authToken);
+        } catch (err) {
+          console.error('Login failed:', err);
+        }
+      };
+
     return(
         <section className="bg-home zoom-image d-flex align-items-center">
             <div className="bg-overlay image-wrap" style={{backgroundImage:`url(${bg3})`, backgroundPosition:'center'}}></div>
@@ -11,16 +34,16 @@ export default function AuthLogin(){
                 <div className="row">
                     <div className="col-12">
                         <div className="p-4 bg-white rounded-3 shadow-md mx-auto w-100" style={{maxWidth:'400px'}}>
-                            <form>
+                            <form onSubmit={handleLogin}>
                                 <Link to="/"><img src={logo} className="mb-4 d-block mx-auto" alt=""/></Link>
                                 <h5 className="mb-3">Please sign in</h5>
                             
                                 <div className="form-floating mb-2">
-                                    <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
+                                    <input type="email" onChange={(e) => setEmail(e.target.value)} className="form-control" id="floatingInput" placeholder="name@example.com"/>
                                     <label htmlFor="floatingInput">Email address</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input type="password" className="form-control" id="floatingPassword" placeholder="Password"/>
+                                    <input type="password" onChange={(e) => setPassword(e.target.value)} className="form-control" id="floatingPassword" placeholder="Password"/>
                                     <label htmlFor="floatingPassword">Password</label>
                                 </div>
                             

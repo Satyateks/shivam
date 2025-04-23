@@ -1,6 +1,12 @@
 import '../common/commonForm.css'
 import flag from '../assect/svg/flag.svg'
-export const ContactForm = () => {
+import { useEffect } from 'react';
+import CInput from './CInput/CInput';
+export const ContactForm = ({title="Contact Us"}) => {
+
+ 
+   
+    
     return (
         <div
             className="card shadow-lg"
@@ -12,7 +18,7 @@ export const ContactForm = () => {
             }}
         >
             <div className="card-body" style={{backgroundColor:'#b0ccf13b'}}>
-                <h5 className="fw-bold text-center">Contact Us</h5>
+                <h5 className="fw-bold text-center">{title}</h5>
                 <form>
                     <div>
                         <p className="fw-bold">
@@ -36,6 +42,7 @@ export const ContactForm = () => {
                                 <input type="text" className="form-control " placeholder='First Name' required />
                             </div>
                             <div>
+                                {/* <CInput label='Last Name' value='lastName' placeholder='Enter LastName'  className=''  /> */}
                                 <label className="d-block fw-bold">Last Name<span className='text-danger fw-bold'>*</span></label>
                                 <input type="text" className="form-control" placeholder='Last Name' required />
                             </div>

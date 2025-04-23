@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+// import { useSignUpMutation } from '../services/authApi';
 import bg3 from "../../assect/images/bg/03.jpg"
 import logo from "../../assect/images/logo-icon-80.png"
 
 export default function Signup(){
+   
+    // const [signUp] = useSignUpMutation();
+    // const [form, setForm] = useState({ email: '', password: '' });
+
     return(
         <>
         <section className="bg-home zoom-image d-flex align-items-center">
